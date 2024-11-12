@@ -1,0 +1,114 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f5f7;
+    margin: 0;
+}
+
+.job-card-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Job Card styling */
+.job-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 319px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.priceHour{
+    display: flex;
+    justify-content: space-between; /*equal space between Hour and Price */
+}
+.badge.hourly {
+    background-color: #58d68d;
+}
+
+.badge.part-time {
+    background-color: #f39c12;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.company {
+    color: #3498db;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.skill {
+    border: 1px solid #b7aaaa;
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+/* used for mouse hover */
+.skill:hover{ 
+    background-color: crimson;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.more {
+    background-color: #5dade2;
+    color: white;
+}
+
+.description {
+    font-size: 14px;
+    color: #3d4243;
+    margin: 10px 0 20px;
+}
+
+.view-job {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    padding-top: 20px;
+    border-top: 1px solid rgb(168, 168, 168);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-job:hover {
+    border: 2px solid #58d68d;
+}
