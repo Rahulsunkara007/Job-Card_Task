@@ -112,3 +112,23 @@ body {
 .view-job:hover {
     border: 2px solid #58d68d;
 }
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 500px) {
+    body {
+        font-family: Arial, sans-serif;
+        align-items: center;
+       
+        margin: 100px 20px;
+        background-color: #f2f5f7;
+       
+
+    }
+
+    .job-card-container{
+        display: block;
+    }
+    .job-card{
+        margin-bottom: 31px;
+    }
